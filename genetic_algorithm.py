@@ -142,9 +142,24 @@ class GeneticAlgorithm:
             self.initialize_aging_data(population)
         for i in range(esize, self.data.ga_popsize):
             i1, i2 = self.select_parents(population)
-            buffer[i] = self.problem.crossover(population[i1], population[i2])
-            if random.randint(0, 32767) < self.data.ga_mutation:
-                self.problem.mutate(buffer[i])
+            blacklisted = True
+            while blacklisted:
+                buffer[i] = self.problem.crossover(population[i1], population[i2])
+                if random.randint(0, 32767) < self.data.ga_mutation:
+                    self.problem.mutate(buffer[i])
+                blacklisted = self.check_if_blacklisted(buffer[i])
+                if random.randint(0, 32767) < 32767 * 0.1:
+                    blacklisted = False
+
+    def check_if_blacklisted(self, citizen):
+        if self.data.genetic_problem == GeneticProblem.STRING_SEARCH:
+            return citizen.str in self.data.blacklist
+        elif self.data.genetic_problem == GeneticProblem.NQUEENS:
+            return citizen.board in self.data.blacklist
+        elif self.data.genetic_problem == GeneticProblem.KNAPSACK:
+            return citizen.knapsack in self.data.blacklist
+        else:
+            return False
 
     # Move the percentage of elite to the next generation without changing them
     def elitism(self, population, buffer, esize):
@@ -211,8 +226,13 @@ class GeneticAlgorithm:
 
     # Random selection from better half of population
     def random_selection(self):
-        i1 = int(random.randint(0, 32767) % (self.data.ga_popsize / 2))
-        i2 = int(random.randint(0, 32767) % (self.data.ga_popsize / 2))
+        if self.data.performed_niching:
+            esize = int(self.data.ga_popsize * self.data.ga_elitrate)
+            i1 = int(random.randint(0, 32767) % esize)
+            i2 = int(random.randint(0, 32767) % esize)
+        else:
+            i1 = int(random.randint(0, 32767) % (self.data.ga_popsize / 2))
+            i2 = int(random.randint(0, 32767) % (self.data.ga_popsize / 2))
         return i1, i2
 
     # Roulette selection, given weights for each citizen's fitness
@@ -228,13 +248,18 @@ class GeneticAlgorithm:
     def tournament_selection(self, population):
         best = 0
         for i in range(self.data.ga_k):
-            entry = int(random.randint(0, 32767) % self.data.ga_popsize)
+            if self.data.performed_niching:
+                esize = int(self.data.ga_popsize * self.data.ga_elitrate)
+                entry = int(random.randint(0, 32767) % esize)
+            else:
+                entry = int(random.randint(0, 32767) % self.data.ga_popsize)
             if i == 0 or population[entry].fitness < population[best].fitness:
                 best = entry
         return best
 
     # Check if we're stuck in a local minima and handle it
     def handle_local_optima(self, population):
+        self.data.performed_niching = False
         if self.data.local_optima_signal == LocalOptimaSignal.Off:
             return
         if self.data.mutation_increased:
@@ -310,7 +335,8 @@ class GeneticAlgorithm:
             file.write("Hyper mutation performed\n")
 
     def perform_niching(self, population):
-        self.data.ga_elitrate = 0.2
+        self.data.performed_niching = True
+        self.blacklist(population[0])
         self.calc_niching_fitness(population)
         with open("data_before", 'a') as file:
             file.write("Turn\n")
@@ -338,16 +364,6 @@ class GeneticAlgorithm:
         with open("deviation", 'a') as file:
             file.write("Random immigrants performed\n")
 
-    def are_similar(self, citizen1, citizen2):
-        different_entries = self.problem.different_entries(citizen1, citizen2)
-        if self.data.genetic_problem == GeneticProblem.STRING_SEARCH and different_entries == 0:
-            return True
-        elif self.data.genetic_problem == GeneticProblem.NQUEENS and different_entries < 2:
-            return True
-        elif self.data.genetic_problem == GeneticProblem.KNAPSACK and different_entries < 2:
-            return True
-        return False
-
     def calc_niching_fitness(self, population):
         max_fitness = -1
         for i in range(self.data.ga_popsize):
@@ -364,3 +380,11 @@ class GeneticAlgorithm:
             if diff_entries < self.data.sigma_share:
                 overall = overall + (1 - (diff_entries / self.data.sigma_share))
         return overall
+
+    def blacklist(self, citizen):
+        if self.data.genetic_problem == GeneticProblem.STRING_SEARCH:
+            self.data.blacklist.append(citizen.str)
+        elif self.data.genetic_problem == GeneticProblem.NQUEENS:
+            self.data.blacklist.append(citizen.board)
+        else:
+            self.data.blacklist.append(citizen.knapsack)

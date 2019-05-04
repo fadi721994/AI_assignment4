@@ -24,7 +24,9 @@ class Data:
         self.local_optima_groups_num = 8
         self.mutation_increased = False
         self.increased_iteration = 0
-        self.sigma_share = 2
+        self.performed_niching = False
+        self.sigma_share = 1
+        self.blacklist = []
 
         # General genetic algorithm initialization
         self.ga_popsize = 2048
