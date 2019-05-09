@@ -51,7 +51,7 @@ class NQueensProblem:
     def print_best(self, gav, iter_num):
         print("Iteration number: " + str(iter_num))
         print("Best: ")
-        self.print_board(gav[0].board)
+        # self.print_board(gav[0].board)
         print("Fitness: " + str(gav[0].fitness))
         print()
         with open("output.txt", 'a') as file:

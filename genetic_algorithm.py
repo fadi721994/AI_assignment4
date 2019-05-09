@@ -68,7 +68,7 @@ class GeneticAlgorithm:
             print("    Selection method: " + selection)
             print("    Solving problem number: " + str(self.data.knapsack_problem))
         else:
-            self.data.ga_maxiter = 100
+            self.data.ga_maxiter = 50
             self.data.ga_popsize = 1000
             self.problem = BaldwinEffectProblem(self.data)
             print("Solving the Baldwin effect problem")
@@ -262,16 +262,15 @@ class GeneticAlgorithm:
         self.data.performed_niching = False
         if self.data.local_optima_signal == LocalOptimaSignal.Off:
             return
-        if self.data.mutation_increased:
-            self.data.increased_iteration = self.data.increased_iteration + 1
-            if self.data.increased_iteration == 10:
-                self.data.ga_mutation = 32767 * self.data.ga_mutationrate
-                self.data.mutation_increased = False
         if self.data.local_optima_signal == LocalOptimaSignal.Deviation:
             self.deviation_local_optima(population)
         else:
             self.similarity_local_optima(population)
         if self.data.mutation_increased:
+            self.data.increased_iteration = self.data.increased_iteration + 1
+            if self.data.increased_iteration == 10:
+                self.data.ga_mutation = 32767 * self.data.ga_mutationrate
+                self.data.mutation_increased = False
             return
         self.check_local_optima_signal(population)
 
@@ -312,7 +311,7 @@ class GeneticAlgorithm:
             if zero_counter / self.data.local_optima_groups_num <= 0.45 or self.local_optima_signals[-1][0] != 0:
                 return
         else:
-            if self.local_optima_signals[-1][0] >= 0.015:
+            if self.local_optima_signals[-1][0] >= 0.02:
                 return
         self.evade_local_optima(population)
 
@@ -329,10 +328,6 @@ class GeneticAlgorithm:
         self.data.mutation_increased = True
         self.data.increased_iteration = 0
         print("Hyper mutation performed")
-        with open("fitness", 'a') as file:
-            file.write("Hyper mutation performed\n")
-        with open("deviation", 'a') as file:
-            file.write("Hyper mutation performed\n")
 
     def perform_niching(self, population):
         self.data.performed_niching = True
@@ -348,21 +343,16 @@ class GeneticAlgorithm:
             for cit in population:
                 file.write(cit.str + " " + str(cit.fitness) + "\n")
         print("Niching performed")
-        with open("fitness", 'a') as file:
-            file.write("Niching performed\n")
-        with open("deviation", 'a') as file:
-            file.write("Niching performed\n")
 
     def perform_random_immigrants(self, population):
-        for i in range(int(self.data.ga_popsize / self.data.local_optima_groups_num)):
-            population[i] = self.problem.init_citizen()
+        for i in range(self.data.ga_popsize):
+            if self.are_similar(population[0], population[i]):
+                number = random.randint(0, 9)
+                if number != 0:
+                    population[i] = self.problem.init_citizen()
         self.problem.calc_fitness(population)
         population.sort()
         print("Random immigrants performed")
-        with open("fitness", 'a') as file:
-            file.write("Random immigrants performed\n")
-        with open("deviation", 'a') as file:
-            file.write("Random immigrants performed\n")
 
     def calc_niching_fitness(self, population):
         max_fitness = -1
@@ -388,3 +378,11 @@ class GeneticAlgorithm:
             self.data.blacklist.append(citizen.board)
         else:
             self.data.blacklist.append(citizen.knapsack)
+
+    def are_similar(self, citizen1, citizen2):
+        if self.data.genetic_problem == GeneticProblem.STRING_SEARCH:
+            return self.problem.calc_similarity(citizen1, citizen2) < 2
+        elif self.data.genetic_problem == GeneticProblem.NQUEENS:
+            return self.problem.calc_similarity(citizen1, citizen2) < 1
+        else:
+            return citizen1.knapsack == citizen2.knapsack

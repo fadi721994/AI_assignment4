@@ -1,7 +1,4 @@
-from algorithm import Algorithm
 from genetic_algorithm import GeneticAlgorithm
-from csp_algorithm import CSPAlgorithm
-from baldwin_effect_problem import BaldwinEffectProblem
 import utils
 from data import Data
 import os
@@ -11,10 +8,7 @@ import cProfile, pstats, io
 def main():
     utils.delete_files()
     data = Data()
-    if data.algorithm == Algorithm.GENETIC:
-        algorithm = GeneticAlgorithm(data)
-    else:
-        algorithm = CSPAlgorithm(data)
+    algorithm = GeneticAlgorithm(data)
     algorithm.run()
     print("Finished!")
 

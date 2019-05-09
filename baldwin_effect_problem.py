@@ -94,6 +94,4 @@ class BaldwinEffectProblem:
         citizen.str = ''.join(string_list)
 
     def is_done(self, best):
-        if '?' in best.str:
-            return False
-        return True
+        return False

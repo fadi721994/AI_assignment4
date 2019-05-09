@@ -1,6 +1,5 @@
 import argparse
 import sys
-from algorithm import Algorithm
 from genetic_problem import GeneticProblem
 from nqueens_crossover import NQueensCrossover
 from nqueens_mutation import NQueensMutation
@@ -14,7 +13,6 @@ from selection import Selection
 class Data:
     def __init__(self):
         # General initialization
-        self.algorithm = Algorithm.GENETIC
         self.genetic_problem = GeneticProblem.STRING_SEARCH
         self.clocks_per_second = 1000
 
@@ -25,7 +23,7 @@ class Data:
         self.mutation_increased = False
         self.increased_iteration = 0
         self.performed_niching = False
-        self.sigma_share = 1
+        self.sigma_share = 2
         self.blacklist = []
 
         # General genetic algorithm initialization
@@ -61,16 +59,15 @@ class Data:
     # Parse the command line and validate the input
     def parse_cmd(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('-A', default=0, help='Algorithm type: 0 for genetic algorithm, 1 for CSP')
-        parser.add_argument('-GP', default=0,
+        parser.add_argument('-GP', default=1,
                             help='Genetic problem: 0 for string search, 1 for N-queens, 2 for 0-1 knapsack, '
                                  '3 for Baldwin effect')
         parser.add_argument('-KP', default=1, help='Knapsack problem number. Can be between 1 and 8')
         parser.add_argument('-LOS', default=1, help='Local optima signals. 0 for off, 1 for standard deviation, '
                                                     '2 for similarity of citizens')
-        parser.add_argument('-ELO', default=1, help='Evade local optima. 0 for hyper mutations, 1 for niching and '
+        parser.add_argument('-ELO', default=2, help='Evade local optima. 0 for hyper mutations, 1 for niching and '
                                                     '2 for random immigrants')
-        parser.add_argument('-QN', default=8, help='Queens number')
+        parser.add_argument('-QN', default=12, help='Queens number')
         parser.add_argument('-QM', default=0,
                             help='N-queens mutation type: 0 for exchange mutation, 1 for simple inversion mutation')
         parser.add_argument('-QC', default=0, help='N-queens crossover type: 0 for PMX crossover, 1 for OX crossover')
@@ -82,15 +79,6 @@ class Data:
                                                   '2 for aging, 3 for tournament.')
         parser.add_argument('-PS', default=2048, help='Population size')
         args = parser.parse_args()
-
-        try:
-            algorithm_type = int(args.A)
-            if algorithm_type != 0 and algorithm_type != 1:
-                print("Algorithm can only be 0 or 1")
-                sys.exit()
-        except ValueError:
-            print("Algorithm can only be 0 or 1.")
-            sys.exit()
 
         try:
             genetic_prob = int(args.GP)
@@ -198,7 +186,6 @@ class Data:
             sys.exit()
 
         # Initialize general values
-        self.algorithm = Algorithm(algorithm_type)
         if genetic_prob == 3:
             local_optimal_signal = LocalOptimaSignal.Off
             print("Baldwin effect turns off local optima signal")
