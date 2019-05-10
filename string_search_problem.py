@@ -80,10 +80,6 @@ class StringSearchProblem:
             file.write("    Iteration number: " + str(iter_num) + "\n")
             file.write("    Fitness average: " + str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
             file.write("    Fitness deviation: " + str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("fitness", 'a') as file:
-            file.write(str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("deviation", 'a') as file:
-            file.write(str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
 
     # Perform mutation by randomly changing a random character in the string
     def mutate(self, citizen):

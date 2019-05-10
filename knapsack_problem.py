@@ -134,10 +134,6 @@ class KnapsackProblem:
             file.write("    Overall weight is " + str(overall_weight) + "\n")
             file.write("    Fitness average: " + str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
             file.write("    Fitness deviation: " + str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("fitness", 'a') as file:
-            file.write(str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("deviation", 'a') as file:
-            file.write(str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
 
     # Mutation is done by Simple Inversion Mutation
     def mutate(self, citizen):

@@ -117,20 +117,13 @@ class GeneticAlgorithm:
         with open("output.txt", 'a') as file:
             file.write("    Clock ticks elapsed: " + str(round(clock_ticks, 3)) + "\n")
             file.write("    Time elapsed: " + str(round(run_time, 3)) + "\n")
-        with open("data", 'a') as file:
-            for optima_list in self.local_optima_signals:
-                print_str = ""
-                for entry in optima_list:
-                    print_str = print_str + " " + str(entry)
-                file.write(print_str + "\n")
-            file.write("Next run\n")
-        with open("similarity", 'a') as file:
-            for optima_list in self.local_optima_signals:
-                print_str = ""
-                for entry in optima_list:
-                    print_str = print_str + " " + str(entry)
-                file.write(print_str + "\n")
-            file.write("Next run\n")
+        # with open("data", 'a') as file:
+        #     for optima_list in self.local_optima_signals:
+        #         print_str = ""
+        #         for entry in optima_list:
+        #             print_str = print_str + " " + str(entry)
+        #         file.write(print_str + "\n")
+        #     file.write("Next run\n")
 
     # Mate the citizens to create a new generation
     def mate(self, population, buffer):
@@ -272,6 +265,11 @@ class GeneticAlgorithm:
                 self.data.ga_mutation = 32767 * self.data.ga_mutationrate
                 self.data.mutation_increased = False
             return
+        if self.data.performed_immigrants and self.data.genetic_problem == GeneticProblem.KNAPSACK:
+            self.data.immigrants_iteration = self.data.immigrants_iteration + 1
+            if self.data.immigrants_iteration == 10:
+                self.data.performed_immigrants = False
+            return
         self.check_local_optima_signal(population)
 
     def deviation_local_optima(self, population):
@@ -352,6 +350,8 @@ class GeneticAlgorithm:
                     population[i] = self.problem.init_citizen()
         self.problem.calc_fitness(population)
         population.sort()
+        self.data.performed_immigrants = True
+        self.data.immigrants_iteration = 0
         print("Random immigrants performed")
 
     def calc_niching_fitness(self, population):
@@ -383,6 +383,6 @@ class GeneticAlgorithm:
         if self.data.genetic_problem == GeneticProblem.STRING_SEARCH:
             return self.problem.calc_similarity(citizen1, citizen2) < 2
         elif self.data.genetic_problem == GeneticProblem.NQUEENS:
-            return self.problem.calc_similarity(citizen1, citizen2) < 1
+            return self.problem.calc_similarity(citizen1, citizen2) < 2
         else:
             return citizen1.knapsack == citizen2.knapsack

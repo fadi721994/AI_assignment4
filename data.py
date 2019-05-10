@@ -25,6 +25,8 @@ class Data:
         self.performed_niching = False
         self.sigma_share = 2
         self.blacklist = []
+        self.performed_immigrants = False
+        self.immigrants_iteration = 0
 
         # General genetic algorithm initialization
         self.ga_popsize = 2048
@@ -59,15 +61,15 @@ class Data:
     # Parse the command line and validate the input
     def parse_cmd(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('-GP', default=1,
+        parser.add_argument('-GP', default=0,
                             help='Genetic problem: 0 for string search, 1 for N-queens, 2 for 0-1 knapsack, '
                                  '3 for Baldwin effect')
         parser.add_argument('-KP', default=1, help='Knapsack problem number. Can be between 1 and 8')
-        parser.add_argument('-LOS', default=1, help='Local optima signals. 0 for off, 1 for standard deviation, '
+        parser.add_argument('-LOS', default=0, help='Local optima signals. 0 for off, 1 for standard deviation, '
                                                     '2 for similarity of citizens')
-        parser.add_argument('-ELO', default=2, help='Evade local optima. 0 for hyper mutations, 1 for niching and '
+        parser.add_argument('-ELO', default=0, help='Evade local optima. 0 for hyper mutations, 1 for niching and '
                                                     '2 for random immigrants')
-        parser.add_argument('-QN', default=12, help='Queens number')
+        parser.add_argument('-QN', default=8, help='Queens number')
         parser.add_argument('-QM', default=0,
                             help='N-queens mutation type: 0 for exchange mutation, 1 for simple inversion mutation')
         parser.add_argument('-QC', default=0, help='N-queens crossover type: 0 for PMX crossover, 1 for OX crossover')

@@ -51,7 +51,7 @@ class NQueensProblem:
     def print_best(self, gav, iter_num):
         print("Iteration number: " + str(iter_num))
         print("Best: ")
-        # self.print_board(gav[0].board)
+        self.print_board(gav[0].board)
         print("Fitness: " + str(gav[0].fitness))
         print()
         with open("output.txt", 'a') as file:
@@ -59,10 +59,6 @@ class NQueensProblem:
             file.write("    Iteration number: " + str(iter_num) + "\n")
             file.write("    Fitness average: " + str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
             file.write("    Fitness deviation: " + str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("fitness", 'a') as file:
-            file.write(str(round(utils.average(gav, self.data.ga_popsize), 3)) + "\n")
-        with open("deviation", 'a') as file:
-            file.write(str(round(utils.deviation(gav, self.data.ga_popsize), 3)) + "\n")
 
     # Pretty print the board
     def print_board(self, board):
@@ -79,8 +75,7 @@ class NQueensProblem:
     def mutate(self, citizen):
         if self.data.queens_mutation == NQueensMutation.EXCHANGE:
             self.exchange_mutation(citizen)
-        else:
-            self.simple_inversion_mutation(citizen)
+        else:            self.simple_inversion_mutation(citizen)
 
     # Exchange mutation, switch the places of 2 queens
     def exchange_mutation(self, citizen):
