@@ -61,7 +61,7 @@ class Data:
     # Parse the command line and validate the input
     def parse_cmd(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('-GP', default=4,
+        parser.add_argument('-GP', default=0,
                             help='Genetic problem: 0 for string search, 1 for N-queens, 2 for 0-1 knapsack, '
                                  '3 for Baldwin effect, 4 for pareto optima')
         parser.add_argument('-KP', default=1, help='Knapsack problem number. Can be between 1 and 8')
