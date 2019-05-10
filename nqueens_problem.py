@@ -75,7 +75,8 @@ class NQueensProblem:
     def mutate(self, citizen):
         if self.data.queens_mutation == NQueensMutation.EXCHANGE:
             self.exchange_mutation(citizen)
-        else:            self.simple_inversion_mutation(citizen)
+        else:
+            self.simple_inversion_mutation(citizen)
 
     # Exchange mutation, switch the places of 2 queens
     def exchange_mutation(self, citizen):
@@ -107,7 +108,7 @@ class NQueensProblem:
     # Perform PMX crossover. We run it 3 times for each descendant
     def pmx_crossover(self, first_parent, second_parent):
         citizen = Citizen()
-        for i in range(3):
+        for j in range(3):
             entry = int(random.randint(0, 32767) % self.data.queens_num)
             for i in range(self.data.queens_num):
                 if first_parent.board[i] == second_parent.board[entry]:

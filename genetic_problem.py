@@ -6,3 +6,4 @@ class GeneticProblem(Enum):
     NQUEENS = 1
     KNAPSACK = 2
     BALDWIN = 3
+    PARITO = 4

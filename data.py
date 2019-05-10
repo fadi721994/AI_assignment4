@@ -61,9 +61,9 @@ class Data:
     # Parse the command line and validate the input
     def parse_cmd(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument('-GP', default=0,
+        parser.add_argument('-GP', default=4,
                             help='Genetic problem: 0 for string search, 1 for N-queens, 2 for 0-1 knapsack, '
-                                 '3 for Baldwin effect')
+                                 '3 for Baldwin effect, 4 for pareto optima')
         parser.add_argument('-KP', default=1, help='Knapsack problem number. Can be between 1 and 8')
         parser.add_argument('-LOS', default=0, help='Local optima signals. 0 for off, 1 for standard deviation, '
                                                     '2 for similarity of citizens')
@@ -84,11 +84,12 @@ class Data:
 
         try:
             genetic_prob = int(args.GP)
-            if genetic_prob != 0 and genetic_prob != 1 and genetic_prob != 2 and genetic_prob != 3:
-                print("Genetic problem can only be 0, 1, 2 or 3.")
+            if genetic_prob != 0 and genetic_prob != 1 and genetic_prob != 2 and genetic_prob != 3 \
+                    and genetic_prob != 4:
+                print("Genetic problem can only be 0, 1, 2, 3 or 4.")
                 sys.exit()
         except ValueError:
-            print("Genetic problem can only be 0, 1, 2 or 3.")
+            print("Genetic problem can only be 0, 1, 2, 3 or 4.")
             sys.exit()
 
         try:
@@ -193,6 +194,9 @@ class Data:
             print("Baldwin effect turns off local optima signal")
             selection_type = 1
             print("Baldwin effect runs only with roulette wheel selection (RWS)")
+        if genetic_prob == 4:
+            local_optimal_signal = LocalOptimaSignal.Off
+            print("Parito optimal turns off local optima signal")
         self.genetic_problem = GeneticProblem(genetic_prob)
         self.selection = Selection(selection_type)
         self.original_selection = self.selection

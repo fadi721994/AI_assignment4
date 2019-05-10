@@ -6,6 +6,7 @@ from string_search_problem import StringSearchProblem
 from nqueens_problem import NQueensProblem
 from knapsack_problem import KnapsackProblem
 from baldwin_effect_problem import BaldwinEffectProblem
+from pareto_optimal_problem import ParetoOptimalProblem
 from nqueens_crossover import NQueensCrossover
 from nqueens_mutation import NQueensMutation
 from string_search_crossover import StringSearchCrossOver
@@ -67,11 +68,16 @@ class GeneticAlgorithm:
             print("Using:")
             print("    Selection method: " + selection)
             print("    Solving problem number: " + str(self.data.knapsack_problem))
-        else:
+        elif self.data.genetic_problem == GeneticProblem.BALDWIN:
             self.data.ga_maxiter = 50
             self.data.ga_popsize = 1000
             self.problem = BaldwinEffectProblem(self.data)
             print("Solving the Baldwin effect problem")
+        else:
+            self.data.ga_maxiter = 50
+            self.problem = ParetoOptimalProblem(self.data)
+            print("    Selection method: " + selection)
+            print("Solving the Parito Optimal Frontier problem")
 
     # The actual algorithm run
     def run(self):
@@ -96,6 +102,8 @@ class GeneticAlgorithm:
             buffer, population = population, buffer
             self.print_data(start_time)
 
+        if self.data.genetic_problem == GeneticProblem.PARITO:
+            self.problem.calculate_pareto(population[0])
         overall_time = time.clock() - overall_time
         overall_clock_ticks = overall_time * self.data.clocks_per_second
         with open("output.txt", 'a') as file:

@@ -1,165 +1,303 @@
-Best: >xXcd RrnI&) (186)
+Best fitness: 132.5154
     Iteration number: 0
-    Fitness average: 404.794
-    Fitness deviation: 75.997
-    Clock ticks elapsed: 55.371
-    Time elapsed: 0.055
-Best: UnXlq.VJEmj3 (166)
+    Fitness average: 145.994
+    Fitness deviation: 4.056
+    Clock ticks elapsed: 3497.271
+    Time elapsed: 3.497
+Best fitness: 66.5425
     Iteration number: 1
-    Fitness average: 338.442
-    Fitness deviation: 59.872
-    Clock ticks elapsed: 50.333
-    Time elapsed: 0.05
-Best: UnXlq.VqEmj, (124)
+    Fitness average: inf
+    Fitness deviation: nan
+    Clock ticks elapsed: 3802.677
+    Time elapsed: 3.803
+Best fitness: 35.94698
     Iteration number: 2
-    Fitness average: 288.963
-    Fitness deviation: 53.073
-    Clock ticks elapsed: 54.138
-    Time elapsed: 0.054
-Best: LOfjj$Tew]o" (88)
+    Fitness average: 49.385
+    Fitness deviation: 29.807
+    Clock ticks elapsed: 3420.663
+    Time elapsed: 3.421
+Best fitness: 20.43846
     Iteration number: 3
-    Fitness average: 247.386
-    Fitness deviation: 47.42
-    Clock ticks elapsed: 57.52
-    Time elapsed: 0.058
-Best: Geosi WurMh# (60)
+    Fitness average: 27.225
+    Fitness deviation: 14.428
+    Clock ticks elapsed: 3679.443
+    Time elapsed: 3.679
+Best fitness: 12.79758
     Iteration number: 4
-    Fitness average: 211.149
-    Fitness deviation: 43.675
-    Clock ticks elapsed: 54.361
-    Time elapsed: 0.054
-Best: Geosi WurMh# (60)
+    Fitness average: 16.45
+    Fitness deviation: 6.988
+    Clock ticks elapsed: 3798.372
+    Time elapsed: 3.798
+Best fitness: 9.45609
     Iteration number: 5
-    Fitness average: 180.349
-    Fitness deviation: 41.219
-    Clock ticks elapsed: 53.612
-    Time elapsed: 0.054
-Best: Geomj+Vivxj (56)
+    Fitness average: 11.191
+    Fitness deviation: 3.384
+    Clock ticks elapsed: 3751.971
+    Time elapsed: 3.752
+Best fitness: 7.59345
     Iteration number: 6
-    Fitness average: 151.618
-    Fitness deviation: 35.447
-    Clock ticks elapsed: 54.437
-    Time elapsed: 0.054
-Best: Giimj$Glllc% (48)
+    Fitness average: 8.623
+    Fitness deviation: 1.633
+    Clock ticks elapsed: 6033.646
+    Time elapsed: 6.034
+Best fitness: 6.85058
     Iteration number: 7
-    Fitness average: 128.471
-    Fitness deviation: 31.703
-    Clock ticks elapsed: 59.087
-    Time elapsed: 0.059
-Best: Geosi Wursh# (36)
+    Fitness average: 7.387
+    Fitness deviation: 0.778
+    Clock ticks elapsed: 4552.15
+    Time elapsed: 4.552
+Best fitness: 6.46453
     Iteration number: 8
-    Fitness average: 110.677
-    Fitness deviation: 29.873
-    Clock ticks elapsed: 52.825
-    Time elapsed: 0.053
-Best: Geosi Wlllc% (31)
+    Fitness average: 6.783
+    Fitness deviation: 0.376
+    Clock ticks elapsed: 4107.9
+    Time elapsed: 4.108
+Best fitness: 6.29357
     Iteration number: 9
-    Fitness average: 94.021
-    Fitness deviation: 27.443
-    Clock ticks elapsed: 52.82
-    Time elapsed: 0.053
-Best: Gefjj!Xopmh% (27)
+    Fitness average: 6.492
+    Fitness deviation: 0.206
+    Clock ticks elapsed: 4224.588
+    Time elapsed: 4.225
+Best fitness: 6.20931
     Iteration number: 10
-    Fitness average: 80.711
-    Fitness deviation: 25.845
-    Clock ticks elapsed: 55.102
-    Time elapsed: 0.055
-Best: Gefjj!Xopmh% (27)
+    Fitness average: 6.357
+    Fitness deviation: 0.153
+    Clock ticks elapsed: 4855.992
+    Time elapsed: 4.856
+Best fitness: 6.17358
     Iteration number: 11
-    Fitness average: 70.268
-    Fitness deviation: 25.896
-    Clock ticks elapsed: 57.285
-    Time elapsed: 0.057
-Best: Iiklq Yoqpe! (16)
+    Fitness average: 6.28
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 7038.592
+    Time elapsed: 7.039
+Best fitness: 6.15418
     Iteration number: 12
-    Fitness average: 59.715
-    Fitness deviation: 23.548
-    Clock ticks elapsed: 50.017
-    Time elapsed: 0.05
-Best: Iiklq Yoqpe! (16)
+    Fitness average: 6.251
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 6421.145
+    Time elapsed: 6.421
+Best fitness: 6.14651
     Iteration number: 13
-    Fitness average: 51.18
-    Fitness deviation: 22.708
-    Clock ticks elapsed: 51.11
-    Time elapsed: 0.051
-Best: Hellp Yoqhe' (15)
+    Fitness average: 6.228
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 5746.808
+    Time elapsed: 5.747
+Best fitness: 6.14275
     Iteration number: 14
-    Fitness average: 45.698
-    Fitness deviation: 23.384
-    Clock ticks elapsed: 50.248
-    Time elapsed: 0.05
-Best: Iiklq Yoqlc" (13)
+    Fitness average: 6.219
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 3883.211
+    Time elapsed: 3.883
+Best fitness: 6.14131
     Iteration number: 15
-    Fitness average: 40.073
-    Fitness deviation: 22.531
-    Clock ticks elapsed: 59.245
-    Time elapsed: 0.059
-Best: Hellp Xoplc! (5)
+    Fitness average: 6.215
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 4107.909
+    Time elapsed: 4.108
+Best fitness: 6.1406
     Iteration number: 16
-    Fitness average: 36.689
-    Fitness deviation: 23.306
-    Clock ticks elapsed: 53.127
-    Time elapsed: 0.053
-Best: Hellp Xoplc! (5)
+    Fitness average: 6.218
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 4241.52
+    Time elapsed: 4.242
+Best fitness: 6.14044
     Iteration number: 17
-    Fitness average: 31.578
-    Fitness deviation: 21.482
-    Clock ticks elapsed: 47.644
-    Time elapsed: 0.048
-Best: Hellp Xoplc! (5)
+    Fitness average: 6.212
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 3920.061
+    Time elapsed: 3.92
+Best fitness: 6.14034
     Iteration number: 18
-    Fitness average: 28.6
-    Fitness deviation: 22.477
-    Clock ticks elapsed: 52.978
-    Time elapsed: 0.053
-Best: Hellp Xoplc! (5)
+    Fitness average: 6.22
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 4374.513
+    Time elapsed: 4.375
+Best fitness: 6.14035
     Iteration number: 19
-    Fitness average: 24.714
-    Fitness deviation: 21.538
-    Clock ticks elapsed: 60.576
-    Time elapsed: 0.061
-Best: Hello Yorld" (3)
+    Fitness average: 6.214
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 4070.566
+    Time elapsed: 4.071
+Best fitness: 6.14034
     Iteration number: 20
-    Fitness average: 22.899
-    Fitness deviation: 22.91
-    Clock ticks elapsed: 83.055
-    Time elapsed: 0.083
-Best: Hello Yorld" (3)
+    Fitness average: 6.215
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 4394.085
+    Time elapsed: 4.394
+Best fitness: 6.14035
     Iteration number: 21
-    Fitness average: 20.922
-    Fitness deviation: 22.6
-    Clock ticks elapsed: 51.003
-    Time elapsed: 0.051
-Best: Hello Yorld" (3)
+    Fitness average: 6.218
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 4172.039
+    Time elapsed: 4.172
+Best fitness: 6.14032
     Iteration number: 22
-    Fitness average: 18.673
-    Fitness deviation: 22.191
-    Clock ticks elapsed: 56.188
-    Time elapsed: 0.056
-Best: Gello World" (2)
+    Fitness average: 6.213
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 4046.333
+    Time elapsed: 4.046
+Best fitness: 6.14027
     Iteration number: 23
-    Fitness average: 16.554
-    Fitness deviation: 21.573
-    Clock ticks elapsed: 50.039
-    Time elapsed: 0.05
-Best: Hello Worlc! (1)
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 3378.594
+    Time elapsed: 3.379
+Best fitness: 6.1402
     Iteration number: 24
-    Fitness average: 15.538
-    Fitness deviation: 21.94
-    Clock ticks elapsed: 54.161
-    Time elapsed: 0.054
-Best: Hello Worlc! (1)
+    Fitness average: 6.21
+    Fitness deviation: 0.135
+    Clock ticks elapsed: 4230.33
+    Time elapsed: 4.23
+Best fitness: 6.14025
     Iteration number: 25
-    Fitness average: 14.513
-    Fitness deviation: 21.703
-    Clock ticks elapsed: 49.262
-    Time elapsed: 0.049
-Best: Hello World! (0)
+    Fitness average: 6.211
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 4114.051
+    Time elapsed: 4.114
+Best fitness: 6.1402
     Iteration number: 26
-    Fitness average: 14.165
-    Fitness deviation: 22.501
-    Clock ticks elapsed: 19.59
-    Time elapsed: 0.02
-Overall clock ticks: 1534.7331567041288
-Overall time: 1.5347331567041287
-Overall iterations: 26
+    Fitness average: 6.215
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 3938.035
+    Time elapsed: 3.938
+Best fitness: 6.14021
+    Iteration number: 27
+    Fitness average: 6.214
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3741.534
+    Time elapsed: 3.742
+Best fitness: 6.1402
+    Iteration number: 28
+    Fitness average: 6.216
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3806.829
+    Time elapsed: 3.807
+Best fitness: 6.14021
+    Iteration number: 29
+    Fitness average: 6.211
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 4227.226
+    Time elapsed: 4.227
+Best fitness: 6.1402
+    Iteration number: 30
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 5109.438
+    Time elapsed: 5.109
+Best fitness: 6.14021
+    Iteration number: 31
+    Fitness average: 6.219
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 4752.449
+    Time elapsed: 4.752
+Best fitness: 6.1402
+    Iteration number: 32
+    Fitness average: 6.214
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 5868.583
+    Time elapsed: 5.869
+Best fitness: 6.14021
+    Iteration number: 33
+    Fitness average: 6.217
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 6844.2
+    Time elapsed: 6.844
+Best fitness: 6.1402
+    Iteration number: 34
+    Fitness average: 6.213
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 4129.525
+    Time elapsed: 4.13
+Best fitness: 6.14019
+    Iteration number: 35
+    Fitness average: 6.21
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 4496.479
+    Time elapsed: 4.496
+Best fitness: 6.1402
+    Iteration number: 36
+    Fitness average: 6.211
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 4449.14
+    Time elapsed: 4.449
+Best fitness: 6.14019
+    Iteration number: 37
+    Fitness average: 6.209
+    Fitness deviation: 0.135
+    Clock ticks elapsed: 6189.978
+    Time elapsed: 6.19
+Best fitness: 6.1402
+    Iteration number: 38
+    Fitness average: 6.214
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 4265.674
+    Time elapsed: 4.266
+Best fitness: 6.14019
+    Iteration number: 39
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 4243.838
+    Time elapsed: 4.244
+Best fitness: 6.1402
+    Iteration number: 40
+    Fitness average: 6.217
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3449.488
+    Time elapsed: 3.449
+Best fitness: 6.14019
+    Iteration number: 41
+    Fitness average: 6.217
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3306.101
+    Time elapsed: 3.306
+Best fitness: 6.1402
+    Iteration number: 42
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 3354.64
+    Time elapsed: 3.355
+Best fitness: 6.14019
+    Iteration number: 43
+    Fitness average: 6.219
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3302.925
+    Time elapsed: 3.303
+Best fitness: 6.14019
+    Iteration number: 44
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 3278.981
+    Time elapsed: 3.279
+Best fitness: 6.14019
+    Iteration number: 45
+    Fitness average: 6.211
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 3245.32
+    Time elapsed: 3.245
+Best fitness: 6.14019
+    Iteration number: 46
+    Fitness average: 6.211
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 3291.616
+    Time elapsed: 3.292
+Best fitness: 6.14019
+    Iteration number: 47
+    Fitness average: 6.214
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3320.207
+    Time elapsed: 3.32
+Best fitness: 6.14018
+    Iteration number: 48
+    Fitness average: 6.216
+    Fitness deviation: 0.14
+    Clock ticks elapsed: 3761.21
+    Time elapsed: 3.761
+Best fitness: 6.14019
+    Iteration number: 49
+    Fitness average: 6.213
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3465.574
+    Time elapsed: 3.466
+Overall clock ticks: 218524.46935341076
+Overall time: 218.52446935341075
+Overall iterations: 49
