@@ -1,303 +1,303 @@
-Best fitness: 132.5154
+Best fitness: 279.6192
     Iteration number: 0
-    Fitness average: 145.994
-    Fitness deviation: 4.056
-    Clock ticks elapsed: 3497.271
-    Time elapsed: 3.497
-Best fitness: 66.5425
+    Fitness average: 315.745
+    Fitness deviation: 8.872
+    Clock ticks elapsed: 3835.242
+    Time elapsed: 3.835
+Best fitness: 136.09545
     Iteration number: 1
-    Fitness average: inf
-    Fitness deviation: nan
-    Clock ticks elapsed: 3802.677
-    Time elapsed: 3.803
-Best fitness: 35.94698
+    Fitness average: 171.677
+    Fitness deviation: 43.2
+    Clock ticks elapsed: 4069.057
+    Time elapsed: 4.069
+Best fitness: 70.51657
     Iteration number: 2
-    Fitness average: 49.385
-    Fitness deviation: 29.807
-    Clock ticks elapsed: 3420.663
-    Time elapsed: 3.421
-Best fitness: 20.43846
+    Fitness average: 86.972
+    Fitness deviation: 20.876
+    Clock ticks elapsed: 4022.306
+    Time elapsed: 4.022
+Best fitness: 37.99248
     Iteration number: 3
-    Fitness average: 27.225
-    Fitness deviation: 14.428
-    Clock ticks elapsed: 3679.443
-    Time elapsed: 3.679
-Best fitness: 12.79758
+    Fitness average: 45.76
+    Fitness deviation: 10.27
+    Clock ticks elapsed: 4591.839
+    Time elapsed: 4.592
+Best fitness: 21.53492
     Iteration number: 4
-    Fitness average: 16.45
-    Fitness deviation: 6.988
-    Clock ticks elapsed: 3798.372
-    Time elapsed: 3.798
-Best fitness: 9.45609
+    Fitness average: 25.531
+    Fitness deviation: 4.925
+    Clock ticks elapsed: 4307.074
+    Time elapsed: 4.307
+Best fitness: 13.57323
     Iteration number: 5
-    Fitness average: 11.191
-    Fitness deviation: 3.384
-    Clock ticks elapsed: 3751.971
-    Time elapsed: 3.752
-Best fitness: 7.59345
+    Fitness average: 15.735
+    Fitness deviation: 2.373
+    Clock ticks elapsed: 3349.196
+    Time elapsed: 3.349
+Best fitness: 9.63181
     Iteration number: 6
-    Fitness average: 8.623
-    Fitness deviation: 1.633
-    Clock ticks elapsed: 6033.646
-    Time elapsed: 6.034
-Best fitness: 6.85058
+    Fitness average: 10.984
+    Fitness deviation: 1.123
+    Clock ticks elapsed: 4167.019
+    Time elapsed: 4.167
+Best fitness: 8.00341
     Iteration number: 7
-    Fitness average: 7.387
-    Fitness deviation: 0.778
-    Clock ticks elapsed: 4552.15
-    Time elapsed: 4.552
-Best fitness: 6.46453
+    Fitness average: 8.687
+    Fitness deviation: 0.533
+    Clock ticks elapsed: 3616.342
+    Time elapsed: 3.616
+Best fitness: 7.15181
     Iteration number: 8
-    Fitness average: 6.783
-    Fitness deviation: 0.376
-    Clock ticks elapsed: 4107.9
-    Time elapsed: 4.108
-Best fitness: 6.29357
+    Fitness average: 7.575
+    Fitness deviation: 0.273
+    Clock ticks elapsed: 3145.024
+    Time elapsed: 3.145
+Best fitness: 6.7684
     Iteration number: 9
-    Fitness average: 6.492
-    Fitness deviation: 0.206
-    Clock ticks elapsed: 4224.588
-    Time elapsed: 4.225
-Best fitness: 6.20931
+    Fitness average: 7.026
+    Fitness deviation: 0.166
+    Clock ticks elapsed: 3175.058
+    Time elapsed: 3.175
+Best fitness: 6.58486
     Iteration number: 10
-    Fitness average: 6.357
-    Fitness deviation: 0.153
-    Clock ticks elapsed: 4855.992
-    Time elapsed: 4.856
-Best fitness: 6.17358
+    Fitness average: 6.77
+    Fitness deviation: 0.143
+    Clock ticks elapsed: 3589.985
+    Time elapsed: 3.59
+Best fitness: 6.50414
     Iteration number: 11
-    Fitness average: 6.28
-    Fitness deviation: 0.138
-    Clock ticks elapsed: 7038.592
-    Time elapsed: 7.039
-Best fitness: 6.15418
-    Iteration number: 12
-    Fitness average: 6.251
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 6421.145
-    Time elapsed: 6.421
-Best fitness: 6.14651
-    Iteration number: 13
-    Fitness average: 6.228
+    Fitness average: 6.64
     Fitness deviation: 0.136
-    Clock ticks elapsed: 5746.808
-    Time elapsed: 5.747
-Best fitness: 6.14275
-    Iteration number: 14
-    Fitness average: 6.219
-    Fitness deviation: 0.136
-    Clock ticks elapsed: 3883.211
-    Time elapsed: 3.883
-Best fitness: 6.14131
-    Iteration number: 15
-    Fitness average: 6.215
-    Fitness deviation: 0.136
-    Clock ticks elapsed: 4107.909
-    Time elapsed: 4.108
-Best fitness: 6.1406
-    Iteration number: 16
-    Fitness average: 6.218
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 4241.52
-    Time elapsed: 4.242
-Best fitness: 6.14044
-    Iteration number: 17
-    Fitness average: 6.212
-    Fitness deviation: 0.137
-    Clock ticks elapsed: 3920.061
-    Time elapsed: 3.92
-Best fitness: 6.14034
-    Iteration number: 18
-    Fitness average: 6.22
-    Fitness deviation: 0.142
-    Clock ticks elapsed: 4374.513
-    Time elapsed: 4.375
-Best fitness: 6.14035
-    Iteration number: 19
-    Fitness average: 6.214
-    Fitness deviation: 0.138
-    Clock ticks elapsed: 4070.566
-    Time elapsed: 4.071
-Best fitness: 6.14034
-    Iteration number: 20
-    Fitness average: 6.215
-    Fitness deviation: 0.139
-    Clock ticks elapsed: 4394.085
-    Time elapsed: 4.394
-Best fitness: 6.14035
-    Iteration number: 21
-    Fitness average: 6.218
-    Fitness deviation: 0.141
-    Clock ticks elapsed: 4172.039
-    Time elapsed: 4.172
-Best fitness: 6.14032
-    Iteration number: 22
-    Fitness average: 6.213
-    Fitness deviation: 0.138
-    Clock ticks elapsed: 4046.333
-    Time elapsed: 4.046
-Best fitness: 6.14027
-    Iteration number: 23
-    Fitness average: 6.216
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 3378.594
-    Time elapsed: 3.379
-Best fitness: 6.1402
-    Iteration number: 24
-    Fitness average: 6.21
-    Fitness deviation: 0.135
-    Clock ticks elapsed: 4230.33
-    Time elapsed: 4.23
-Best fitness: 6.14025
-    Iteration number: 25
-    Fitness average: 6.211
-    Fitness deviation: 0.136
-    Clock ticks elapsed: 4114.051
-    Time elapsed: 4.114
-Best fitness: 6.1402
-    Iteration number: 26
-    Fitness average: 6.215
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 3938.035
-    Time elapsed: 3.938
-Best fitness: 6.14021
-    Iteration number: 27
-    Fitness average: 6.214
-    Fitness deviation: 0.139
-    Clock ticks elapsed: 3741.534
-    Time elapsed: 3.742
-Best fitness: 6.1402
-    Iteration number: 28
-    Fitness average: 6.216
-    Fitness deviation: 0.139
-    Clock ticks elapsed: 3806.829
-    Time elapsed: 3.807
-Best fitness: 6.14021
-    Iteration number: 29
-    Fitness average: 6.211
-    Fitness deviation: 0.137
-    Clock ticks elapsed: 4227.226
-    Time elapsed: 4.227
-Best fitness: 6.1402
-    Iteration number: 30
-    Fitness average: 6.216
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 5109.438
-    Time elapsed: 5.109
-Best fitness: 6.14021
-    Iteration number: 31
-    Fitness average: 6.219
-    Fitness deviation: 0.142
-    Clock ticks elapsed: 4752.449
-    Time elapsed: 4.752
-Best fitness: 6.1402
-    Iteration number: 32
-    Fitness average: 6.214
-    Fitness deviation: 0.139
-    Clock ticks elapsed: 5868.583
-    Time elapsed: 5.869
-Best fitness: 6.14021
-    Iteration number: 33
-    Fitness average: 6.217
-    Fitness deviation: 0.141
-    Clock ticks elapsed: 6844.2
-    Time elapsed: 6.844
-Best fitness: 6.1402
-    Iteration number: 34
-    Fitness average: 6.213
-    Fitness deviation: 0.138
-    Clock ticks elapsed: 4129.525
-    Time elapsed: 4.13
-Best fitness: 6.14019
-    Iteration number: 35
-    Fitness average: 6.21
-    Fitness deviation: 0.136
-    Clock ticks elapsed: 4496.479
-    Time elapsed: 4.496
-Best fitness: 6.1402
-    Iteration number: 36
-    Fitness average: 6.211
-    Fitness deviation: 0.137
-    Clock ticks elapsed: 4449.14
-    Time elapsed: 4.449
-Best fitness: 6.14019
-    Iteration number: 37
-    Fitness average: 6.209
-    Fitness deviation: 0.135
-    Clock ticks elapsed: 6189.978
-    Time elapsed: 6.19
-Best fitness: 6.1402
-    Iteration number: 38
-    Fitness average: 6.214
-    Fitness deviation: 0.139
-    Clock ticks elapsed: 4265.674
-    Time elapsed: 4.266
-Best fitness: 6.14019
-    Iteration number: 39
-    Fitness average: 6.216
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 4243.838
-    Time elapsed: 4.244
-Best fitness: 6.1402
-    Iteration number: 40
-    Fitness average: 6.217
-    Fitness deviation: 0.141
-    Clock ticks elapsed: 3449.488
-    Time elapsed: 3.449
-Best fitness: 6.14019
-    Iteration number: 41
-    Fitness average: 6.217
-    Fitness deviation: 0.141
-    Clock ticks elapsed: 3306.101
-    Time elapsed: 3.306
-Best fitness: 6.1402
-    Iteration number: 42
-    Fitness average: 6.216
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 3354.64
-    Time elapsed: 3.355
-Best fitness: 6.14019
-    Iteration number: 43
-    Fitness average: 6.219
-    Fitness deviation: 0.142
-    Clock ticks elapsed: 3302.925
-    Time elapsed: 3.303
-Best fitness: 6.14019
-    Iteration number: 44
-    Fitness average: 6.216
-    Fitness deviation: 0.14
-    Clock ticks elapsed: 3278.981
-    Time elapsed: 3.279
-Best fitness: 6.14019
-    Iteration number: 45
-    Fitness average: 6.211
-    Fitness deviation: 0.137
-    Clock ticks elapsed: 3245.32
+    Clock ticks elapsed: 3245.328
     Time elapsed: 3.245
-Best fitness: 6.14019
-    Iteration number: 46
-    Fitness average: 6.211
-    Fitness deviation: 0.137
-    Clock ticks elapsed: 3291.616
-    Time elapsed: 3.292
-Best fitness: 6.14019
-    Iteration number: 47
-    Fitness average: 6.214
+Best fitness: 6.46921
+    Iteration number: 12
+    Fitness average: 6.581
     Fitness deviation: 0.139
-    Clock ticks elapsed: 3320.207
-    Time elapsed: 3.32
-Best fitness: 6.14018
-    Iteration number: 48
-    Fitness average: 6.216
+    Clock ticks elapsed: 3254.049
+    Time elapsed: 3.254
+Best fitness: 6.45674
+    Iteration number: 13
+    Fitness average: 6.555
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3262.291
+    Time elapsed: 3.262
+Best fitness: 6.44872
+    Iteration number: 14
+    Fitness average: 6.538
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3265.685
+    Time elapsed: 3.266
+Best fitness: 6.44625
+    Iteration number: 15
+    Fitness average: 6.53
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3204.214
+    Time elapsed: 3.204
+Best fitness: 6.44468
+    Iteration number: 16
+    Fitness average: 6.524
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3222.46
+    Time elapsed: 3.222
+Best fitness: 6.44425
+    Iteration number: 17
+    Fitness average: 6.522
     Fitness deviation: 0.14
-    Clock ticks elapsed: 3761.21
-    Time elapsed: 3.761
-Best fitness: 6.14019
-    Iteration number: 49
-    Fitness average: 6.213
+    Clock ticks elapsed: 3240.682
+    Time elapsed: 3.241
+Best fitness: 6.44281
+    Iteration number: 18
+    Fitness average: 6.523
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3196.004
+    Time elapsed: 3.196
+Best fitness: 6.44255
+    Iteration number: 19
+    Fitness average: 6.517
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 3185.352
+    Time elapsed: 3.185
+Best fitness: 6.44254
+    Iteration number: 20
+    Fitness average: 6.517
     Fitness deviation: 0.139
-    Clock ticks elapsed: 3465.574
-    Time elapsed: 3.466
-Overall clock ticks: 218524.46935341076
-Overall time: 218.52446935341075
+    Clock ticks elapsed: 3206.338
+    Time elapsed: 3.206
+Best fitness: 6.44233
+    Iteration number: 21
+    Fitness average: 6.514
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 3359.116
+    Time elapsed: 3.359
+Best fitness: 6.44219
+    Iteration number: 22
+    Fitness average: 6.521
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3217.949
+    Time elapsed: 3.218
+Best fitness: 6.44219
+    Iteration number: 23
+    Fitness average: 6.514
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 3232.094
+    Time elapsed: 3.232
+Best fitness: 6.44216
+    Iteration number: 24
+    Fitness average: 6.518
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3214.167
+    Time elapsed: 3.214
+Best fitness: 6.44203
+    Iteration number: 25
+    Fitness average: 6.516
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3627.841
+    Time elapsed: 3.628
+Best fitness: 6.44203
+    Iteration number: 26
+    Fitness average: 6.519
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3230.479
+    Time elapsed: 3.23
+Best fitness: 6.44203
+    Iteration number: 27
+    Fitness average: 6.515
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 3307.288
+    Time elapsed: 3.307
+Best fitness: 6.44203
+    Iteration number: 28
+    Fitness average: 6.523
+    Fitness deviation: 0.143
+    Clock ticks elapsed: 4075.53
+    Time elapsed: 4.076
+Best fitness: 6.44203
+    Iteration number: 29
+    Fitness average: 6.524
+    Fitness deviation: 0.144
+    Clock ticks elapsed: 3383.284
+    Time elapsed: 3.383
+Best fitness: 6.44203
+    Iteration number: 30
+    Fitness average: 6.518
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3270.372
+    Time elapsed: 3.27
+Best fitness: 6.44203
+    Iteration number: 31
+    Fitness average: 6.517
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3449.8
+    Time elapsed: 3.45
+Best fitness: 6.44203
+    Iteration number: 32
+    Fitness average: 6.516
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3225.932
+    Time elapsed: 3.226
+Best fitness: 6.44203
+    Iteration number: 33
+    Fitness average: 6.518
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3208.088
+    Time elapsed: 3.208
+Best fitness: 6.44203
+    Iteration number: 34
+    Fitness average: 6.515
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 3191.265
+    Time elapsed: 3.191
+Best fitness: 6.44203
+    Iteration number: 35
+    Fitness average: 6.508
+    Fitness deviation: 0.133
+    Clock ticks elapsed: 3277.961
+    Time elapsed: 3.278
+Best fitness: 6.44203
+    Iteration number: 36
+    Fitness average: 6.52
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3222.393
+    Time elapsed: 3.222
+Best fitness: 6.44203
+    Iteration number: 37
+    Fitness average: 6.512
+    Fitness deviation: 0.137
+    Clock ticks elapsed: 3194.348
+    Time elapsed: 3.194
+Best fitness: 6.44203
+    Iteration number: 38
+    Fitness average: 6.512
+    Fitness deviation: 0.136
+    Clock ticks elapsed: 3312.036
+    Time elapsed: 3.312
+Best fitness: 6.44203
+    Iteration number: 39
+    Fitness average: 6.52
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3370.896
+    Time elapsed: 3.371
+Best fitness: 6.44203
+    Iteration number: 40
+    Fitness average: 6.52
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3226.358
+    Time elapsed: 3.226
+Best fitness: 6.44203
+    Iteration number: 41
+    Fitness average: 6.513
+    Fitness deviation: 0.138
+    Clock ticks elapsed: 3245.485
+    Time elapsed: 3.245
+Best fitness: 6.44203
+    Iteration number: 42
+    Fitness average: 6.517
+    Fitness deviation: 0.139
+    Clock ticks elapsed: 3267.394
+    Time elapsed: 3.267
+Best fitness: 6.44203
+    Iteration number: 43
+    Fitness average: 6.517
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3622.612
+    Time elapsed: 3.623
+Best fitness: 6.44203
+    Iteration number: 44
+    Fitness average: 6.518
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3290.851
+    Time elapsed: 3.291
+Best fitness: 6.44202
+    Iteration number: 45
+    Fitness average: 6.52
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3305.293
+    Time elapsed: 3.305
+Best fitness: 6.44202
+    Iteration number: 46
+    Fitness average: 6.52
+    Fitness deviation: 0.142
+    Clock ticks elapsed: 3234.943
+    Time elapsed: 3.235
+Best fitness: 6.44202
+    Iteration number: 47
+    Fitness average: 6.518
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3312.055
+    Time elapsed: 3.312
+Best fitness: 6.44202
+    Iteration number: 48
+    Fitness average: 6.522
+    Fitness deviation: 0.143
+    Clock ticks elapsed: 3505.259
+    Time elapsed: 3.505
+Best fitness: 6.44202
+    Iteration number: 49
+    Fitness average: 6.52
+    Fitness deviation: 0.141
+    Clock ticks elapsed: 3274.927
+    Time elapsed: 3.275
+Overall clock ticks: 175204.11709055761
+Overall time: 175.20411709055762
 Overall iterations: 49

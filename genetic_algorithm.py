@@ -171,6 +171,7 @@ class GeneticAlgorithm:
             buffer[i].knapsack = population[i].knapsack
             buffer[i].capacity = population[i].capacity
             buffer[i].age = population[i].age + 1
+            buffer[i].x = population[i].x
         self.data.ga_elitrate = 0.1
         return esize
 

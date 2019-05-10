@@ -23,7 +23,7 @@ class ParetoOptimalProblem:
     def init_citizen(self):
         citizen = Citizen()
         for i in range(self.length):
-            citizen.x[i] = random.randint(-20, 20)
+            citizen.x[i] = random.randint(-30, 30)
         return citizen
 
     def calc_fitness(self, population):
